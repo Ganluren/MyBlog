@@ -1,0 +1,32 @@
+server:
+  port: 409
+  servlet:
+    context-path: /
+spring:
+  devtools:
+    restart:
+      enabled: true
+      additional-paths: src/main/java
+  thymeleaf:
+    cache: false
+    servlet:  
+      content-type: text/html
+    encoding: UTF-8
+    mode: HTML5
+    prefix: classpath:/templates/
+    suffix: .html
+  datasource:
+    url: jdbc:mysql://localhost:3307/ganluren?useSSL=false&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    druid:
+      initial-size: 1
+      min-idle: 1
+      max-active: 20
+      test-on-borrow: true
+      stat-view-servlet:
+        allow: true
+mybatis:
+  type-handlers-package: net.xu.pojo
+  mapper-locations: classpath:mapper/*.xml

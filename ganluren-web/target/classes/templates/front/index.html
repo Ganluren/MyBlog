@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="Bookmark" href="/favicon.ico">
+    <link rel="shortcut icon" type="text/css"/>
+
+    <!--页头样式-->
+    <link rel="stylesheet" th:href="@{'/css/header.css'}">
+    <!--全局样式-->
+    <link rel="stylesheet" th:href="@{'/css/main.css'}">
+    <!--首页样式-->
+    <link rel="stylesheet" th:href="@{'/css/index.css'}">
+    <!--图片轮播样式-->
+    <link rel="stylesheet" th:href="@{'/frame/activity-carousel/css/activity-carousel.css'}">
+    <link href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <title>Ganluren</title>
+    <link rel="stylesheet" th:href="@{'/frame/bootstrap-3.3.7-dist/css/bootstrap.css'}">
+</head>
+<body>
+<header th:include="/front/common/header"></header>
+<section class="outer">
+    <section class="main-top">
+        <!--图片轮播-->
+        <article class="activity-carousel">
+            <div class="container" style="width: 100%">
+                <div class="trent-slider">
+                    <div class="t-slide current-t-slide">
+                        <img th:src="@{'/frame/activity-carousel/img/1.jpg'}" alt=""/>
+                    </div>
+                    <div class="t-slide">
+                        <img th:src="@{'/frame/activity-carousel/img/2.jpg'}" alt=""/>
+                    </div>
+                    <div class="t-slide">
+                        <img th:src="@{'/frame/activity-carousel/img/3.jpg'}" alt=""/>
+                    </div>
+                    <div class="t-slide">
+                        <img th:src="@{'/frame/activity-carousel/img/4.jpg'}" alt=""/>
+                    </div>
+                    <div class="t-slider-controls">
+                        <div class="arrow right-arrow">
+                            <div class="arrow-container">
+                                <div class="arrow-icon"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                        <div class="arrow left-arrow">
+                            <div class="arrow-container">
+                                <div class="arrow-icon"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                        <div class="t-load-bar">
+                            <div class="inner-load-bar"></div>
+                        </div>
+                        <div class="t-dots-container">
+                            <div class="t-slide-dots-wrap">
+                                <div class="t-slide-dots">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <section class="main-right">
+        <article class="new-artice">
+            <div class="div-tietle">
+                最新文章
+            </div>
+            <div class="artice-context-tietle">
+                <div class="context-tietle">
+                    <div class="context-tietle-time">8-22</div>
+                    <div class="context-tietle-font">Seesion与cookie初级应用</div>
+                </div>
+                <div class="context-tietle">
+                    <div class="context-tietle-time">8-22</div>
+                    <div class="context-tietle-font">Seesion与cookie初级应用</div>
+                </div>
+                <div class="context-tietle">
+                    <div class="context-tietle-time">8-22</div>
+                    <div class="context-tietle-font">Seesion与cookie初级应用</div>
+                </div>
+                <div class="context-tietle">
+                    <div class="context-tietle-time">8-22</div>
+                    <div class="context-tietle-font">Seesion与cookie初级应用</div>
+                </div>
+            </div>
+        </article>
+        <article class="hot-artice">
+            <div class="div-tietle">
+                最热文章
+            </div>
+            <div class="artice-context-tietle">
+                <div class="context-tietle">
+                    <div class="context-tietle-time">6666</div>
+                    <div class="context-tietle-font">Seesion与cookie初级应用</div>
+                </div>
+                <div class="context-tietle">
+                    <div class="context-tietle-time">6666</div>
+                    <div class="context-tietle-font">Seesion与cookie初级应用</div>
+                </div>
+                <div class="context-tietle">
+                    <div class="context-tietle-time">6666</div>
+                    <div class="context-tietle-font">Seesion与cookie初级应用</div>
+                </div>
+                <div class="context-tietle">
+                    <div class="context-tietle-time">6666</div>
+                    <div class="context-tietle-font">Seesion与cookie初级应用</div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <section class="main-artice">
+        <article>
+            <div>
+
+            </div>
+
+        </article>
+    </section>
+</section>
+</body>
+<!--公共js-->
+<script type="text/javascript" th:src="@{'/frame/jquery/jquery-2.1.4.min.js'}"></script>
+<!--轮播js-->
+<script type="text/javascript" th:src="@{'/frame/activity-carousel/js/activity-carousel.js'}"></script>
+<!--本页面js-->
+<script type="text/javascript" th:src="@{'/js/index.js'}"></script>
+</html>

@@ -1,0 +1,81 @@
+.outer {
+    width: 100%;
+    min-width: 1200px;
+    height: auto;
+    padding: 0px 150px;
+    /* margin-top: 37px; */
+    padding-top: 80px;
+}
+
+.main-top {
+    background-color: #168534;
+    width: 800px;
+    height: 400px;
+    /* float: left; */
+    /* display: inline; */
+}
+
+.main-artice {
+    background-color: #85597b;
+    width: 800px;
+    height: 1200px;
+}
+
+.main-right {
+    width: 400px;
+    height: auto;
+    /* float: left; */
+    padding: 15px;
+    position: fixed;
+    left: 1000px;
+    top: 80px;
+}
+
+.hot-artice {
+    width: 100%;
+    height: auto;
+    margin-bottom: 18px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+.new-artice {
+    width: 100%;
+    height: auto;
+    margin-bottom: 18px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+.div-tietle {
+    background-color: #e8dede;
+    padding: 15px;
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid #a6a1a180;
+}
+.artice-context-tietle {
+    border: 1px solid #00000036;
+    /* padding: 15px; */
+    height: auto;
+    background-color: #fefefe63;
+}
+.context-tietle {
+    padding: 10px;
+    width: 370px;
+    height: 57px;
+    border-bottom: 1px solid #0000001f;
+}
+.context-tietle:hover {
+    background-color: #4545451a;
+}
+.context-tietle-time {
+    float: left;
+    /* border: 1px solid #2869e2; */
+    height: 35px;
+    padding: 8px 29px;
+    border-radius: 5px;
+    background-color: #89c4e980;
+}
+.context-tietle-font {
+    float: left;
+    padding: 10px;
+    font-family: inherit'隶书';
+    font-size: 13px;
+}
