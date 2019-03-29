@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ganluren.iml" filepath="$PROJECT_DIR$/ganluren.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ganluren-mapping/ganluren-mapping.iml" filepath="$PROJECT_DIR$/ganluren-mapping/ganluren-mapping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ganluren-service/ganluren-service.iml" filepath="$PROJECT_DIR$/ganluren-service/ganluren-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ganluren-util/ganluren-util.iml" filepath="$PROJECT_DIR$/ganluren-util/ganluren-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ganluren-web/ganluren-web.iml" filepath="$PROJECT_DIR$/ganluren-web/ganluren-web.iml" />
+    </modules>
+  </component>
+</project>
